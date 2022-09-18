@@ -13,7 +13,7 @@ services:
       MYSQL_ROOT_PASSWORD: password
   springboot-mysql:
     build: .
-    image: kevpin/springboot-mysql
+    image: vctimatador/springboot-mysql
     ports:
       - 8086:8086
     environment:

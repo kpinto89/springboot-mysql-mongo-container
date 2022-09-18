@@ -1,6 +1,6 @@
-package com.example.demo.service;
+package org.vcti.demo.service;
 
-import com.example.demo.entity.Employee;
+import org.vcti.demo.entity.Employee;
 
 import java.util.List;
 

@@ -1,15 +1,17 @@
-package com.example.demo.entity;
+package org.vcti.demo.entity;
 
 import lombok.*;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-
-@Document
+@Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Employee {
 
     @Id

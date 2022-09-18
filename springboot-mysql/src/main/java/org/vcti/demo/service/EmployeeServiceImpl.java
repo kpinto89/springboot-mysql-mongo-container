@@ -1,7 +1,7 @@
-package com.example.demo.service;
+package org.vcti.demo.service;
 
-import com.example.demo.entity.Employee;
-import com.example.demo.repository.EmployeeRepository;
+import org.vcti.demo.entity.Employee;
+import org.vcti.demo.repository.EmployeeRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

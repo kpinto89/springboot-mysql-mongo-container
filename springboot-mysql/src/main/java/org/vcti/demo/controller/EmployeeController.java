@@ -1,9 +1,9 @@
-package com.example.demo.controller;
+package org.vcti.demo.controller;
 
-import com.example.demo.entity.Employee;
+import org.vcti.demo.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.example.demo.service.EmployeeService;
+import org.vcti.demo.service.EmployeeService;
 
 import java.util.List;
 

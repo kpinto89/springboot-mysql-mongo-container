@@ -1,7 +1,7 @@
-package com.example.demo.repository;
+package org.vcti.demo.repository;
 
 
-import com.example.demo.entity.Employee;
+import org.vcti.demo.entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

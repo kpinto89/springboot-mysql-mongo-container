@@ -1,7 +1,7 @@
-package com.example.demo.repository;
+package org.vcti.demo.repository;
 
 import org.springframework.stereotype.Repository;
-import com.example.demo.entity.Employee;
+import org.vcti.demo.entity.Employee;
 import org.springframework.data.mongodb.repository.*;
 
 @Repository
