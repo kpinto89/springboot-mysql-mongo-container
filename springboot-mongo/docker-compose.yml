@@ -1,0 +1,16 @@
+version: "3"
+services:
+  mongodb-standalone:
+    image: mongo:latest
+    container_name: mongodb-standalone
+    ports:
+      - 27017:27017
+  springboot-mongo:
+    build: .
+    image: kevpin/springboot-mongo
+    ports:
+      - 8087:8087
+    depends_on:
+      - mongodb-standalone
+    extra_hosts:
+      - host.docker.internal:host-gateway
